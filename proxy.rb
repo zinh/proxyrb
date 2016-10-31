@@ -1,5 +1,10 @@
 require 'sinatra'
 require 'open-uri'
+require 'figaro'
+
+use Rack::Auth::Basic do |username, password|
+    username == ENV['basic_auth_username'] && password == ENV['basic_auth_password']
+end
 
 get '/' do
   url = params[:path]

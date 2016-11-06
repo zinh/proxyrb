@@ -7,4 +7,4 @@ ruby "2.3.1"
 gem "sinatra"
 gem "unicorn"
 gem "foreman"
-gem "figaro"
+gem "dotenv", :groups => [:development]

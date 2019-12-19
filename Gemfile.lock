@@ -6,7 +6,7 @@ GEM
       thor (~> 0.19.1)
     kgio (2.10.0)
     rack (1.6.12)
-    rack-protection (1.5.3)
+    rack-protection (1.5.5)
       rack
     raindrops (0.17.0)
     sinatra (1.4.7)
